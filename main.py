@@ -4,7 +4,7 @@ import random
 import string
 import telebot
 from datetime import datetime, timedelta
-bot = telebot.TeleBot("8401992850:AAGQ1E1hH-c1CbnYoiSIoGIv19Tq7d__cTU")
+bot = telebot.TeleBot("TOKEN HIDDEN")
 
 
 
@@ -246,3 +246,4 @@ def student(message, res=False):
 
 
 bot.polling(none_stop = True, interval = 1)
+
