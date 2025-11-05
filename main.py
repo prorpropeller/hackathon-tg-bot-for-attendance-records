@@ -1,5 +1,5 @@
 
-# извините если бот плохо написан, его делал только я и никто больше, а половина команды ничего не делали :(
+# извините если бот плохо написан :(
 import random
 import string
 import telebot
@@ -241,6 +241,7 @@ def student(message, res=False):
                                                           "\n"
                                          f"количество пропусков всего: {fairskip+unfairskip}"
                                          )
+
 
 
 
