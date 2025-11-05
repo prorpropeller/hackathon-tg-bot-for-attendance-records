@@ -166,11 +166,6 @@ def set(message, res=False):
     else:
         bot.send_message(message.chat.id, "ОТКЛОНЕНО, НУЖЕН СПЕЦИАЛЬНЫЙ ДОСТУП")
 
-@bot.message_handler(commands=["test"])
-def test(message, res=False):
-    bot.send_message(message.chat.id, str(students))
-    print(students)
-
 @bot.message_handler(commands=["student"])
 def student(message, res=False):
     args = message.text.split()
@@ -246,4 +241,5 @@ def student(message, res=False):
 
 
 bot.polling(none_stop = True, interval = 1)
+
 
